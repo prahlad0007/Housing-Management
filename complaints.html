@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaints</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Complaints</h1>
+  </header>
+  
+  <div class="complaints-container">
+    <h2>File a Complaint</h2>
+    <form action="post">
+      <div>
+        <label for="username">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <p>Select Service</p>
+        <select name="Service" >
+          <option value="None">None</option>
+          <option value="Housekeeping">House keeping</option>
+          <option value="Electrician">Electrician</option>
+          <option value="Carpentary">Carpentary</option>
+          <option value="Pest Control">Pest Control</option>
+          <option value="Plumber">Plumber</option>
+      </select>
+      </div>
+    
+      <textarea rows="10" cols="10" placeholder="Enter your complaint here"></textarea><br>
+      
+      <div>
+         <input type="reset" name="reset" id="restore">
+         <label for="restore"></label>
+      </div>
+      <div><button type="submit">Submit Complaint</button></div>
+    </form>
+  </div>
+
+
+  <center><a href="index.html"><h2>Back to Home Page</h2></a></center>
+  <!-- <footer>
+    <div class="about-us">
+        <h3><u>About Us</u></h3>
+        <p>We are dedicated to providing innovative housing management solutions.</p>
+    </div>
+  </footer> -->
+</body>
+</html>
